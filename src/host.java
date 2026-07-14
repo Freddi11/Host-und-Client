@@ -19,6 +19,7 @@ public class host {
             PrintWriter out = new PrintWriter(socket.getOutputStream(), true);
             Scanner tastatur = new Scanner(System.in);
 
+
             while (true) {
                 //Nachricht vom Client
                 String clientEingabe = in.readLine();
